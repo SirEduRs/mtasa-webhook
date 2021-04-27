@@ -1,6 +1,6 @@
-local WebhoookEmbed = "url do webhook"
+local WebhookEmbed = "url do webhook"
 
-function sendDiscordMessageRes(message)
+function sendDiscordMessage(message)
   local Json = {
     embeds = {
         {
@@ -26,5 +26,5 @@ function sendDiscordMessageRes(message)
           },
           postData = Json
 	}
-  fetchRemote ( discordWebhookRes, sendOptions, callback ) -- Conexão com o Webhook
+  fetchRemote ( WebhookEmbed, sendOptions, function callback then end ) -- Conexão com o Webhook
 end
