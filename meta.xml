@@ -1,3 +1,4 @@
 <meta>
-  <script src="webhook.lua" type="server" />
-</meta<
+  <script src="webhook.lua"/>
+  <export function="sendDiscordMessage" type="server" /> <!--Se Você quiser usar em outros scripts-->
+</meta>
